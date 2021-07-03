@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #FFFFFF;
+    color:rgba(33, 78, 65, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.54;
+    /* identical to box height, or 154% */
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806C;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.28;
+    /* or 128% */
+}
+
+h4 {
+    font-weight: normal;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+}
+
+.header {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 0px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.logo {}
+
+.logo img {}
+
+.main-nav {
+    margin-left: 10%;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: #214E41;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: #FFFFFF;
+    background-color: #43806C;
+    border-radius: 6px;
+    border: 0px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+.introduction {
+    background-image: url("../img/photo.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding-top: 161px;
+    position: relative;
+}
+
+.introduction h2 {
+    margin-bottom: 40px;
+}
+
+.text {
+    max-width: 516px;
+    border-style: none;
+}
+
+.search p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+}
+
+.search {
+    margin-bottom: 186px;
+}
+
+.field {
+    border-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: #222222;
+    border-radius: 6px 0px 0px 6px;
+    padding: 20px 88px 20px 30px;
+    background-color: #FFFFFF;
+}
+
+.form button {
+    background: #43806C;
+    border-radius: 0px 6px 6px 0px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.54;
+    /* identical to box height, or 154% */
+    color: #FFFFFF;
+    padding: 20px 36px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.differences {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    border-radius: 6px;
+    position: absolute;
+    bottom: -85px;
+}
+
+.differences-inner {
+    padding: 50px 0px 50px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 42px;
+}
+
+.description img {
+    margin-right: 10px;
+}
+
+.main-description {
+
+}
+
+.main-description h4 {
+    margin-bottom: 7px;
+}
+
+.main-description p {
+    font-size: 14px;
+    line-height: 1.43;
+    /* or 143% */
+}
+
+.features-inner {
+    display: flex;
+    margin: 213px auto 157px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature {
+    max-width: 40%;
+}
+
+.feature h3 {
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    margin-bottom: 34px;
+}
+
+.feature p {
+    font-size: 18px;
+    line-height: 1.67;
+    /* or 167% */
+    letter-spacing: 0.02px;
+    color: #757575;
+}
+
+.feature a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.02px;
+    color: #214E41;
+    margin-top: 26px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding: 0 0 12px;
+}
+
+.chart img {
+    max-width: 100%;
+}
+
+.benefits {
+    background: linear-gradient(to right,#E3EEED 50%, #214E41 50%);
+}
+
+.benefit-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.benefit-list {
+    padding: 120px 0px 129px 0px;
+    max-width: 50%;
+}
+
+.benefit-list h3 {
+    margin-bottom: 29px;
+}
+
+.benefit-list h2 {
+    margin-bottom: 18px;
+}
+
+.benefit-list ul {
+    list-style-type: none;
+}
+
+.benefit-list li {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    line-height: 1.31;
+    /* identical to box height, or 131% */
+    color: #43806C;
+    margin-bottom: 18px;
+}
+
+.benefit-text {
+    font-size: 20px;
+    line-height: 1.7;
+    /* or 170% */
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+    padding: 165px 9px 203px 0px;
+    max-width: 50%;
+}
+
+.benefit-text p {
+    max-width: 491px;
+}
+
+.benefit-text > p {
+    padding-top: 34px;
+    /* переделать на margin */
+}
