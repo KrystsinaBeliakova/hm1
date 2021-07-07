@@ -96,6 +96,11 @@ h4 {
     cursor: pointer;
 }
 
+.btn:hover {
+    /* color: #FFFFFF;
+    background-color: #43806C; */
+}
+
 .introduction {
     background-image: url("../img/photo.jpg");
     height: 100vh;
@@ -291,6 +296,5 @@ h4 {
 }
 
 .benefit-text > p {
-    padding-top: 34px;
-    /* переделать на margin */
+    margin-bottom: 34px;
 }
